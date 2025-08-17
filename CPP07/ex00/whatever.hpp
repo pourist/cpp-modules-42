@@ -1,4 +1,5 @@
-#pragma once
+#ifndef WHATEVER_CPP
+#define  WHATEVER_CPP
 
 template <typename T>
 void    swap(T& A, T& B)
@@ -25,3 +26,5 @@ T   max(T& a, T& b)
         return a;
     return b;
 }
+
+#endif
